@@ -40,14 +40,7 @@ body{
     position: relative;
     display: flex;
     align-items: center;
-    cursor: pointer;
     margin: auto;
-    transition: all 0.5s ease;
-}
-
-#navbar-logo:hover{
-    transform: rotate(360deg);
-    transition: all 0.5s ease;
 }
 
 .navbar__menu{
@@ -110,14 +103,12 @@ body{
     transition: all 0.5s ease;
 }
 
-
-.crt{
+.cart img{
+    position: relative;
     transition: all 2.0s ease;
 }
 
-.crt:hover{
-    transition: all 2.0s ease;
-    position: relative;
+.cart:hover img{
     bottom: 7px;
 }
 
